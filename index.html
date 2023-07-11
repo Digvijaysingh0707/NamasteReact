@@ -8,15 +8,21 @@
 </head>
 
 <body>
-  //importing React using CDN
+  <!-- importing React using CDN -->
   <div id="root"></div>
 
-  //main react file
+  <!-- main react file -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  
 
-  //react library useful for dom operation
+
+  <!-- react library useful for dom operation -->
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <script>
+    const heading = React.createElement("h1", {}, "Hello from React")
+    const root = ReactDOM.createRoot(document.getElementById("root"))
+    root.render(heading)
+  </script>
 
 </body>
 
