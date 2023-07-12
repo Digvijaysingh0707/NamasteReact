@@ -1,5 +1,10 @@
 
-// empty Object is used to attribute
-const heading = React.createElement("h1", { id: "hello" }, "Hello from React")
+const parent = React.createElement(
+  "div", { id: "parent" },
+  React.createElement("div", { id: "child" },
+    React.createElement("h1", {}, "I'm an h1 tag")))
+
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(heading)
+
+//this convert object into heading tag
+root.render(parent)``
