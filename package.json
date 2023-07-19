@@ -1,0 +1,29 @@
+{
+  "name": "webseries",
+  "version": "1.0.0",
+  "description": "This is react course",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digvijaysingh0707/NamasteReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digvijaysingh0707/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/Digvijaysingh0707/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
